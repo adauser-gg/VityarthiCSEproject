@@ -2,72 +2,61 @@
 
 This is a local web application built with Python and Flask. It allows you to upload question papers (PDFs or images) and tag them with metadata like subject, year, and exam type. Everything is stored locally on your machine using SQLite.
 
-Overview
+## Overview
 
 The goal of this project is to organize scattered question paper files into one searchable digital library. You upload a file, tag it, and it gets saved to a folder while the details go into a database. You can then search and filter to find specific papers later.
 
-Features
+## Features
 
-File Upload: Supports PDF and image uploads.
+* File Upload: Supports PDF and image uploads.
 
-Metadata: Tag papers with Subject, Exam Type, and Year.
+* Metadata: Tag papers with Subject, Exam Type, and Year.
 
-Search: Filter existing papers by their tags.
+* Search: Filter existing papers by their tags.
 
-Local Storage: Files are saved in a local uploads directory.
+* Local Storage: Files are saved in a local uploads directory.
 
-Database: Uses SQLite to keep track of file details. No internet needed.
+* Database: Uses SQLite to keep track of file details. No internet needed.
 
-Unique Filenames: Automatically renames files to prevent overwriting old ones.
+* Unique Filenames: Automatically renames files to prevent overwriting old ones.
 
-Technologies Used
+## Technologies Used
 
-Python 3
+* Python 3
 
-Flask (Web Framework)
+* Flask (Web Framework)
 
-SQLite (Database)
+* SQLite (Database)
 
-HTML/CSS
+* HTML/CSS
 
-Setup Instructions
+## Steps to install & run the project
 
 Download the code
-Clone this repository or download the folder to your computer.
+* Clone this repository or download the folder to your computer.
 
-Install Dependencies
+* Install Dependencies
 Open your terminal in the project folder and run:
-
+```
 pip install -r requirements.txt
-
+```
 
 Run the App
-Start the server:
-
+* Start the server:
+```
 python main.py
-
+```
 
 Open in Browser
 Go to: http://127.0.0.1:5000
 
-Screenshots
 
-<!--
-To add your own screenshots:
 
-Create a folder named 'screenshots' in your project.
 
-Save your images there.
 
-Uncomment the lines below and change the filenames.
--->
+# How to Use
 
-<!--
--->
-
-How to Use
-
-To Upload:
+* To Upload:
 
 Click "Upload a Paper" on the home screen.
 
@@ -77,7 +66,7 @@ Choose a file from your computer.
 
 Click Upload.
 
-To Search:
+ * To Search:
 
 Click "Search for a Paper" on the home screen.
 
@@ -87,23 +76,9 @@ Click Search.
 
 Click the filename in the results to open or download the file.
 
-Project Structure
-
-question-paper-archive/
-├── main.py                              # The Flask application script
-├── papers.db                           # Database file (created automatically when you run app)
-├── requirements.txt               # Python libraries needed
-├── uploads/                              # Where your actual files get saved
-└── templates/                           # HTML pages
-          ├── home.html                  # Main menu
-          ├── upload_page.html     # Upload form 
-          └── search.html                 # Search interface
+## Project Structure
 
 
-To-Do
 
-Add login functionality.
 
-Add a delete button for papers.
 
-Move to cloud hosting if needed later.
