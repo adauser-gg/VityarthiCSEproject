@@ -90,14 +90,14 @@ Click the filename in the results to open or download the file.
 Project Structure
 
 question-paper-archive/
-├── main.py              # The Flask application script
-├── papers.db            # Database file (created automatically when you run app)
-├── requirements.txt     # Python libraries needed
-├── uploads/             # Where your actual files get saved
-└── templates/           # HTML pages
-    ├── home.html        # Main menu
-    ├── upload_page.html # Upload form
-    └── search.html      # Search interface
+├── main.py                              # The Flask application script
+├── papers.db                           # Database file (created automatically when you run app)
+├── requirements.txt               # Python libraries needed
+├── uploads/                              # Where your actual files get saved
+└── templates/                           # HTML pages
+          ├── home.html                  # Main menu
+          ├── upload_page.html     # Upload form 
+          └── search.html                 # Search interface
 
 
 To-Do
