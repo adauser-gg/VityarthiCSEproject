@@ -1,6 +1,6 @@
 # Question Paper Uploader
 
-This is a local web application built with Python and Flask. It allows you to upload question papers (PDFs or images) and tag them with metadata like subject, year, and exam type. Everything is stored locally on your machine using SQLite.
+This is a local web application built with Python and Flask. It allows you to upload question papers (PDFs or images) and tag them with metadata like subject, year, and exam type. Everything is stored locally on your machine using SQLite. It uses numpy and arrays learned in the course to manage files.
 
 ## Overview
 
@@ -29,6 +29,10 @@ The goal of this project is to organize scattered question paper files into one 
 * SQLite (Database)
 
 * HTML/CSS
+
+* numpy
+
+* arrays
 
 ## Steps to install & run the project
 
@@ -84,6 +88,7 @@ Click the filename in the results to open or download the file.
 ![Terminal view](./screenshots/img_3.png)
 
 ### So get started and save your Question papers
+
 
 
 
